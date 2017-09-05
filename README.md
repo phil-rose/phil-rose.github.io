@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="module2_solution.css">
+<body>
 
-You can use the [editor on GitHub](https://github.com/phil-rose/phil-rose.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<div class="container">
+	<h1 class="header-title">Our Menu</h1>
+	<div class="row">
+		<div class="card col-lg-4 col-md-6 col-sm-12">
+			<div class="color-tag">
+				<p class="tag lightcoral">Chicken Fried Shawarma</p>
+				<p class="content">
+					Crispy chicken marinated in a middle eastern spice blend with tahini ranch, hot sauce, pickles and shredded lettuce on a challah bun; served with fries
+				</p>
+				<img src="images/chicken.jpg" alt="Chicken" height="300" width="400">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			</div>
+		</div>
 
-### Markdown
+		<div class="card col-lg-4 col-md-6 col-sm-12">
+			<div class="color-tag">
+				<p class="tag brown white-text">Roasted Mushroom Reuben</p>
+				<p class="content">
+				Trumpet, cremini, and maitake mushrooms, griddled with sauerkraut, Swiss cheese and Russian dressing on rye 
+				</p>
+				<img src="images/beef.jpg" alt="Beef" height="300" width="400">
+			</div>
+		</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/phil-rose/phil-rose.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+		<div class="card col-lg-4 col-md-6 col-sm-12">
+			<div class="color-tag">
+				<p class="tag khaki">Sushi</p>
+				<p class="content">
+				Shrimp Tempura, cucumber, crabmeat rolled in soybean wrapper, topped with Unagi, Ebi, Unagi sauce, peach sauce, Tobiko and green onions
+				</p>
+				<img src="images/sushi.jpg" alt="Sushi" height="300" width="400">
+			</div>
+		</div>
+	</div>
+</div>
+</body>	
+</html>
+	
